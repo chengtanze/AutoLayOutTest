@@ -1,25 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="ksO-bu-EWG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vl8-Ka-NEB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="180" translatesAutoresizingMaskIntoConstraints="NO" id="VbV-cB-yen">
+                                <rect key="frame" x="16" y="51" width="130" height="235"/>
+                                <color key="backgroundColor" red="0.28278080750000001" green="1" blue="0.31922779829999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="C0G-jM-zeD"/>
+                                    <constraint firstAttribute="height" constant="180" id="Jf5-5t-QcR"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="C0G-jM-zeD"/>
+                                        <exclude reference="Jf5-5t-QcR"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="180" translatesAutoresizingMaskIntoConstraints="NO" id="wud-qk-O4T">
+                                <rect key="frame" x="16" y="314" width="288" height="234"/>
+                                <color key="backgroundColor" red="0.35055745739999999" green="0.409601673" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="3Ib-yY-Ayk"/>
+                                    <constraint firstAttribute="width" constant="288" id="Ifh-rD-Hwh"/>
+                                    <constraint firstAttribute="width" constant="288" id="SDG-sP-iXW"/>
+                                    <constraint firstAttribute="height" constant="180" id="cJv-Vh-Bqt"/>
+                                    <constraint firstAttribute="height" constant="180" id="fGj-3g-Ydf"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3Ib-yY-Ayk"/>
+                                        <exclude reference="Ifh-rD-Hwh"/>
+                                        <exclude reference="SDG-sP-iXW"/>
+                                        <exclude reference="cJv-Vh-Bqt"/>
+                                        <exclude reference="fGj-3g-Ydf"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="120" placeholderIntrinsicHeight="180" translatesAutoresizingMaskIntoConstraints="NO" id="ZCq-RU-WdX">
+                                <rect key="frame" x="174" y="51" width="130" height="235"/>
+                                <color key="backgroundColor" red="1" green="0.95813383809999997" blue="0.106853161" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="130" id="6xO-gS-1Dl"/>
+                                    <constraint firstAttribute="height" constant="180" id="7uJ-y3-YeB"/>
+                                    <constraint firstAttribute="width" constant="130" id="GaH-5j-caa"/>
+                                    <constraint firstAttribute="height" constant="180" id="ONm-9S-WxF"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6xO-gS-1Dl"/>
+                                        <exclude reference="7uJ-y3-YeB"/>
+                                        <exclude reference="GaH-5j-caa"/>
+                                        <exclude reference="ONm-9S-WxF"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vl8-Ka-NEB" firstAttribute="top" secondItem="wud-qk-O4T" secondAttribute="bottom" constant="20" id="2Fc-6L-ghT"/>
+                            <constraint firstItem="wud-qk-O4T" firstAttribute="top" secondItem="ZCq-RU-WdX" secondAttribute="bottom" constant="28" id="2gl-Xp-LhZ"/>
+                            <constraint firstItem="wud-qk-O4T" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="4fi-it-Ebi"/>
+                            <constraint firstItem="wud-qk-O4T" firstAttribute="top" secondItem="ZCq-RU-WdX" secondAttribute="bottom" constant="29" id="AUd-2S-9KP"/>
+                            <constraint firstItem="ZCq-RU-WdX" firstAttribute="leading" secondItem="VbV-cB-yen" secondAttribute="trailing" constant="28" id="Aoi-OV-Ia4"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="height" secondItem="ZCq-RU-WdX" secondAttribute="height" id="Bys-Pw-iUV"/>
+                            <constraint firstAttribute="trailing" secondItem="ZCq-RU-WdX" secondAttribute="trailing" constant="16" id="EO5-eU-BMs"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="top" secondItem="ksO-bu-EWG" secondAttribute="bottom" constant="31" id="MAH-ew-DGA"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="height" secondItem="ZCq-RU-WdX" secondAttribute="height" id="OkW-DQ-lfC"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Ot5-6F-EoK"/>
+                            <constraint firstItem="ZCq-RU-WdX" firstAttribute="top" secondItem="ksO-bu-EWG" secondAttribute="bottom" constant="31" id="SeP-an-Gqz"/>
+                            <constraint firstAttribute="centerX" secondItem="wud-qk-O4T" secondAttribute="centerX" id="TfM-Fl-FAO"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="width" secondItem="ZCq-RU-WdX" secondAttribute="width" id="bwQ-Ox-q3Z"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="height" secondItem="ZCq-RU-WdX" secondAttribute="height" id="dQY-oZ-SzL"/>
+                            <constraint firstItem="VbV-cB-yen" firstAttribute="height" secondItem="wud-qk-O4T" secondAttribute="height" id="edF-Qu-6Va"/>
+                            <constraint firstItem="Vl8-Ka-NEB" firstAttribute="top" secondItem="wud-qk-O4T" secondAttribute="bottom" constant="128" id="jQF-XZ-VKP"/>
+                            <constraint firstAttribute="trailing" secondItem="wud-qk-O4T" secondAttribute="trailing" constant="16" id="pLu-Wb-s7o"/>
+                            <constraint firstItem="ZCq-RU-WdX" firstAttribute="leading" secondItem="VbV-cB-yen" secondAttribute="trailing" constant="28" id="u7h-3A-fI0"/>
+                            <constraint firstAttribute="centerX" secondItem="wud-qk-O4T" secondAttribute="centerX" id="yoW-Lo-z62"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bys-Pw-iUV"/>
+                                <exclude reference="dQY-oZ-SzL"/>
+                                <exclude reference="u7h-3A-fI0"/>
+                                <exclude reference="AUd-2S-9KP"/>
+                                <exclude reference="TfM-Fl-FAO"/>
+                                <exclude reference="jQF-XZ-VKP"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="351" y="319"/>
         </scene>
     </scenes>
 </document>
