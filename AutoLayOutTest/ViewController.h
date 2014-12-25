@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)YellowBtnClick:(id)sender;
+- (IBAction)GreenBtnClick:(id)sender;
 
 
 @end

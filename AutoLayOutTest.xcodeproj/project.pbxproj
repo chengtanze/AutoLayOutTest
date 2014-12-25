@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5D2B831A4BB07000DC25C4 /* Registration-Camera-ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */; };
+		FC6A0F081A4A6BD200DCDC53 /* Change-password-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */; };
 		FC9AC89E1A49031600F22004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC89D1A49031600F22004 /* main.m */; };
 		FC9AC8A11A49031600F22004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A01A49031600F22004 /* AppDelegate.m */; };
 		FC9AC8A41A49031600F22004 /* AutoLayOutTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A21A49031600F22004 /* AutoLayOutTest.xcdatamodeld */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Registration-Camera-ICON.png"; sourceTree = "<group>"; };
+		FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Change-password-Icon.png"; sourceTree = "<group>"; };
 		FC9AC8981A49031600F22004 /* AutoLayOutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayOutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AC89C1A49031600F22004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9AC89D1A49031600F22004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 		FC9AC89B1A49031600F22004 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */,
+				FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */,
 				FC9AC89C1A49031600F22004 /* Info.plist */,
 				FC9AC89D1A49031600F22004 /* main.m */,
 			);
@@ -204,7 +210,9 @@
 			files = (
 				FC9AC8AA1A49031600F22004 /* Main.storyboard in Resources */,
 				FC9AC8AF1A49031600F22004 /* LaunchScreen.xib in Resources */,
+				FC5D2B831A4BB07000DC25C4 /* Registration-Camera-ICON.png in Resources */,
 				FC9AC8AC1A49031600F22004 /* Images.xcassets in Resources */,
+				FC6A0F081A4A6BD200DCDC53 /* Change-password-Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,7 @@
 				FC9AC8C01A49031600F22004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC9AC8C11A49031600F22004 /* Build configuration list for PBXNativeTarget "AutoLayOutTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				FC9AC8C31A49031600F22004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
