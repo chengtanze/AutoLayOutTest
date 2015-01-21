@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FC5D2B831A4BB07000DC25C4 /* Registration-Camera-ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */; };
 		FC6A0F081A4A6BD200DCDC53 /* Change-password-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */; };
+		FC72F58D1A6FAA26001149A4 /* ScollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC72F58C1A6FAA26001149A4 /* ScollViewController.m */; };
 		FC9AC89E1A49031600F22004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC89D1A49031600F22004 /* main.m */; };
 		FC9AC8A11A49031600F22004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A01A49031600F22004 /* AppDelegate.m */; };
 		FC9AC8A41A49031600F22004 /* AutoLayOutTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A21A49031600F22004 /* AutoLayOutTest.xcdatamodeld */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Registration-Camera-ICON.png"; sourceTree = "<group>"; };
 		FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Change-password-Icon.png"; sourceTree = "<group>"; };
+		FC72F58B1A6FAA26001149A4 /* ScollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScollViewController.h; sourceTree = "<group>"; };
+		FC72F58C1A6FAA26001149A4 /* ScollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScollViewController.m; sourceTree = "<group>"; };
 		FC9AC8981A49031600F22004 /* AutoLayOutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayOutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AC89C1A49031600F22004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9AC89D1A49031600F22004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 		FC9AC88F1A49031600F22004 = {
 			isa = PBXGroup;
 			children = (
+				FC72F58B1A6FAA26001149A4 /* ScollViewController.h */,
+				FC72F58C1A6FAA26001149A4 /* ScollViewController.m */,
 				FC9AC89A1A49031600F22004 /* AutoLayOutTest */,
 				FC9AC8B71A49031600F22004 /* AutoLayOutTestTests */,
 				FC9AC8991A49031600F22004 /* Products */,
@@ -232,6 +237,7 @@
 			files = (
 				FC9AC8A11A49031600F22004 /* AppDelegate.m in Sources */,
 				FC9AC8A41A49031600F22004 /* AutoLayOutTest.xcdatamodeld in Sources */,
+				FC72F58D1A6FAA26001149A4 /* ScollViewController.m in Sources */,
 				FC9AC8A71A49031600F22004 /* ViewController.m in Sources */,
 				FC9AC89E1A49031600F22004 /* main.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whh-J7-TxM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dp0-XM-Mbr">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -486,13 +486,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Change-password-Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dq1-JA-eQh">
-                                <rect key="frame" x="50" y="28" width="500" height="240"/>
-                                <color key="backgroundColor" red="0.49083291330000001" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="10" y="5" width="270" height="390"/>
-                                </variation>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnt-q0-5s2">
                                 <rect key="frame" x="20" y="288" width="560" height="302"/>
                                 <subviews>
@@ -522,7 +515,7 @@
                                         </variation>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92156862750000001" green="0.92549019610000005" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.49083291330000001" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="LableView">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
@@ -535,6 +528,13 @@
                                     <constraint firstAttribute="centerX" secondItem="7jp-tX-5kq" secondAttribute="centerX" id="rDr-5c-iOg"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Change-password-Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dq1-JA-eQh">
+                                <rect key="frame" x="50" y="28" width="500" height="240"/>
+                                <color key="backgroundColor" red="0.49083291330000001" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="10" y="5" width="270" height="390"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.49083291330000001" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -597,6 +597,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFe-RE-6Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1990.5" y="340"/>
+        </scene>
+        <!--Scoll View Controller-->
+        <scene sceneID="elK-Sw-ySU">
+            <objects>
+                <viewController id="dp0-XM-Mbr" customClass="ScollViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E3W-AA-hXx"/>
+                        <viewControllerLayoutGuide type="bottom" id="D3n-uP-0KF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Wc-8b-Wip">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-Sj-HhC">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1E-Sy-w2i">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="600" id="6KI-xQ-YFR"/>
+                                            <constraint firstAttribute="height" constant="600" id="Q1M-Z0-tR6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="c1E-Sy-w2i" firstAttribute="leading" secondItem="ehg-Sj-HhC" secondAttribute="leading" id="5qI-Vv-VQK"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1E-Sy-w2i" secondAttribute="trailing" id="VpF-dm-LdN"/>
+                                    <constraint firstAttribute="bottom" secondItem="c1E-Sy-w2i" secondAttribute="bottom" id="qWN-5p-o03"/>
+                                    <constraint firstItem="c1E-Sy-w2i" firstAttribute="top" secondItem="ehg-Sj-HhC" secondAttribute="top" id="szv-wW-Gn9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="ehg-Sj-HhC" id="L14-qw-gMO"/>
+                        <outlet property="viewHeight" destination="Q1M-Z0-tR6" id="GHr-4Q-J1n"/>
+                        <outlet property="viewInScoll" destination="c1E-Sy-w2i" id="5bs-x2-y6Z"/>
+                        <outlet property="viewWidth" destination="6KI-xQ-YFR" id="dvL-Ok-2hz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ByC-Lb-H49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2742" y="336"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1re-ji-KyO">
