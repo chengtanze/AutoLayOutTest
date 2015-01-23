@@ -10,6 +10,8 @@
 		FC5D2B831A4BB07000DC25C4 /* Registration-Camera-ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5D2B821A4BB07000DC25C4 /* Registration-Camera-ICON.png */; };
 		FC6A0F081A4A6BD200DCDC53 /* Change-password-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */; };
 		FC72F58D1A6FAA26001149A4 /* ScollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC72F58C1A6FAA26001149A4 /* ScollViewController.m */; };
+		FC8584E41A70A195009A538D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8584E31A70A195009A538D /* MyViewController.m */; };
+		FC8584E71A70D958009A538D /* VerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8584E61A70D958009A538D /* VerticalViewController.m */; };
 		FC9AC89E1A49031600F22004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC89D1A49031600F22004 /* main.m */; };
 		FC9AC8A11A49031600F22004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A01A49031600F22004 /* AppDelegate.m */; };
 		FC9AC8A41A49031600F22004 /* AutoLayOutTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8A21A49031600F22004 /* AutoLayOutTest.xcdatamodeld */; };
@@ -18,6 +20,7 @@
 		FC9AC8AC1A49031600F22004 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9AC8AB1A49031600F22004 /* Images.xcassets */; };
 		FC9AC8AF1A49031600F22004 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9AC8AD1A49031600F22004 /* LaunchScreen.xib */; };
 		FC9AC8BB1A49031600F22004 /* AutoLayOutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9AC8BA1A49031600F22004 /* AutoLayOutTestTests.m */; };
+		FC9CE0611A70E07100BA386E /* TwoDirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CE0601A70E07100BA386E /* TwoDirectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 		FC6A0F071A4A6BD200DCDC53 /* Change-password-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Change-password-Icon.png"; sourceTree = "<group>"; };
 		FC72F58B1A6FAA26001149A4 /* ScollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScollViewController.h; sourceTree = "<group>"; };
 		FC72F58C1A6FAA26001149A4 /* ScollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScollViewController.m; sourceTree = "<group>"; };
+		FC8584E21A70A195009A538D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../MyViewController.h; sourceTree = "<group>"; };
+		FC8584E31A70A195009A538D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../MyViewController.m; sourceTree = "<group>"; };
+		FC8584E51A70D958009A538D /* VerticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalViewController.h; sourceTree = "<group>"; };
+		FC8584E61A70D958009A538D /* VerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalViewController.m; sourceTree = "<group>"; };
 		FC9AC8981A49031600F22004 /* AutoLayOutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayOutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AC89C1A49031600F22004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9AC89D1A49031600F22004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +56,8 @@
 		FC9AC8B41A49031600F22004 /* AutoLayOutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayOutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9AC8B91A49031600F22004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9AC8BA1A49031600F22004 /* AutoLayOutTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayOutTestTests.m; sourceTree = "<group>"; };
+		FC9CE05F1A70E07100BA386E /* TwoDirectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDirectionViewController.h; sourceTree = "<group>"; };
+		FC9CE0601A70E07100BA386E /* TwoDirectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDirectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 		FC9AC89A1A49031600F22004 /* AutoLayOutTest */ = {
 			isa = PBXGroup;
 			children = (
+				FC9CE05F1A70E07100BA386E /* TwoDirectionViewController.h */,
+				FC9CE0601A70E07100BA386E /* TwoDirectionViewController.m */,
+				FC8584E51A70D958009A538D /* VerticalViewController.h */,
+				FC8584E61A70D958009A538D /* VerticalViewController.m */,
+				FC8584E21A70A195009A538D /* MyViewController.h */,
+				FC8584E31A70A195009A538D /* MyViewController.m */,
 				FC9AC89F1A49031600F22004 /* AppDelegate.h */,
 				FC9AC8A01A49031600F22004 /* AppDelegate.m */,
 				FC9AC8A51A49031600F22004 /* ViewController.h */,
@@ -235,8 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8584E41A70A195009A538D /* MyViewController.m in Sources */,
+				FC9CE0611A70E07100BA386E /* TwoDirectionViewController.m in Sources */,
 				FC9AC8A11A49031600F22004 /* AppDelegate.m in Sources */,
 				FC9AC8A41A49031600F22004 /* AutoLayOutTest.xcdatamodeld in Sources */,
+				FC8584E71A70D958009A538D /* VerticalViewController.m in Sources */,
 				FC72F58D1A6FAA26001149A4 /* ScollViewController.m in Sources */,
 				FC9AC8A71A49031600F22004 /* ViewController.m in Sources */,
 				FC9AC89E1A49031600F22004 /* main.m in Sources */,

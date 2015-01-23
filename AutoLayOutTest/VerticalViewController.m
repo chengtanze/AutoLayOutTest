@@ -1,18 +1,18 @@
 //
-//  ScollViewController.m
+//  VerticalViewController.m
 //  AutoLayOutTest
 //
-//  Created by wangsl-iMac on 15/1/21.
+//  Created by wangsl-iMac on 15/1/22.
 //  Copyright (c) 2015年 chengtz-iMac. All rights reserved.
 //
 
-#import "ScollViewController.h"
+#import "VerticalViewController.h"
 
-@interface ScollViewController ()
+@interface VerticalViewController ()
 
 @end
 
-@implementation ScollViewController
+@implementation VerticalViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,12 +27,10 @@
 -(void)updateViewConstraints{
     [super updateViewConstraints];
     
-    self.viewWidth.constant = CGRectGetWidth([UIScreen mainScreen].bounds) * 2;
-    self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
-    
-    NSUserDefaults
-}
+    self.viewHeight.constant = CGRectGetHeight([UIScreen mainScreen].bounds) * 2;
+    self.secondViewTop.constant = CGRectGetHeight([UIScreen mainScreen].bounds);
 
+}
 /*
 #pragma mark - Navigation
 

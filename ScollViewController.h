@@ -14,5 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *viewWidth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *viewHeight;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *secondViewLeading;
 
 @end

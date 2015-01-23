@@ -1,18 +1,18 @@
 //
-//  ScollViewController.m
+//  MyViewController.m
 //  AutoLayOutTest
 //
-//  Created by wangsl-iMac on 15/1/21.
+//  Created by wangsl-iMac on 15/1/22.
 //  Copyright (c) 2015年 chengtz-iMac. All rights reserved.
 //
 
-#import "ScollViewController.h"
+#import "MyViewController.h"
 
-@interface ScollViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation ScollViewController
+@implementation MyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,11 +26,8 @@
 
 -(void)updateViewConstraints{
     [super updateViewConstraints];
-    
     self.viewWidth.constant = CGRectGetWidth([UIScreen mainScreen].bounds) * 2;
     self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
-    
-    NSUserDefaults
 }
 
 /*

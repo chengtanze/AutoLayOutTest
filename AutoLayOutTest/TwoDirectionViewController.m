@@ -1,18 +1,18 @@
 //
-//  ScollViewController.m
+//  TwoDirectionViewController.m
 //  AutoLayOutTest
 //
-//  Created by wangsl-iMac on 15/1/21.
+//  Created by wangsl-iMac on 15/1/22.
 //  Copyright (c) 2015年 chengtz-iMac. All rights reserved.
 //
 
-#import "ScollViewController.h"
+#import "TwoDirectionViewController.h"
 
-@interface ScollViewController ()
+@interface TwoDirectionViewController ()
 
 @end
 
-@implementation ScollViewController
+@implementation TwoDirectionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,10 +27,11 @@
 -(void)updateViewConstraints{
     [super updateViewConstraints];
     
+    self.viewHeight.constant = CGRectGetHeight([UIScreen mainScreen].bounds) * 2;
     self.viewWidth.constant = CGRectGetWidth([UIScreen mainScreen].bounds) * 2;
-    self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
     
-    NSUserDefaults
+    self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
+    self.thirdViewTop.constant = CGRectGetHeight([UIScreen mainScreen].bounds);
 }
 
 /*
